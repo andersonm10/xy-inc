@@ -8,6 +8,15 @@ JDBC – (Java Database Connectivity) forma padrão de acesso a Banco de dados e
 PostgreSQL – banco de dados relacional 
 Padrão MVC – Model View Controller é um padrão de projeto que divide nossa aplicação em várias camadas
 
+--CRIAÇÃO DO BANCO
+
+CREATE TABLE IF NOT EXISTS tbxyinc( 
+cadastro bigint NOT NULL, 
+pontoReferencia varchar(20) NOT NULL,
+coordenadaX varchar(20) NOT NULL, 
+coordenadaY varchar(20) NOT NULL, 
+CONSTRAINT tbaluno_pkey PRIMARY KEY (cadastro)
+);
 
 --SOFTWARE NECESSARIO
 
